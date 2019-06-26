@@ -1,0 +1,119 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:id="@+id/fl_login"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:weightSum="5"
+        android:focusableInTouchMode="true">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="5dp"
+            
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:textColorHint="@color/colorDarkGrey">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_signin_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:shadowColor="@color/colorDarkGrey"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="@color/colorDarkGrey"
+                android:textColorHint="@color/colorDarkGrey"
+                android:textColorLink="@color/colorDarkGrey" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:textColorHint="@color/colorDarkGrey">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_signin_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:shadowColor="@color/colorDarkGrey"
+                android:textColor="@android:color/black"
+                android:textColorHighlight="@color/colorDarkGrey"
+                android:textColorHint="@color/colorDarkGrey"
+                android:textColorLink="@color/colorDarkGrey" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_signin_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:focusableInTouchMode="false"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="login"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/cb_remember_email"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_marginBottom="5dp"
+            android:buttonTint="@color/colorPrimary"
+            android:text="Remember Me" />
+
+        <TextView
+            android:id="@+id/tv_signin_no_account"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:text="Don't have an account? Swipe right to create a new one"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/pb_signin_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="@xml/progress" />
+
+    </LinearLayout>
+
+</FrameLayout>

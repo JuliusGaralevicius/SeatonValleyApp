@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "233865068474",
+    "firebase_url": "https://seatonvalleycouncil-5eb26.firebaseio.com",
+    "project_id": "seatonvalleycouncil-5eb26",
+    "storage_bucket": "seatonvalleycouncil-5eb26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233865068474:android:87e62f22c0bae883",
+        "android_client_info": {
+          "package_name": "com.seatonvalleyccapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233865068474-0hif7t58vff6l1cmjk3jfvu5k5q2i5v4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seatonvalleyccapp",
+            "certificate_hash": "634edd70ab6c8db7703d843b672c94e14b4539e2"
+          }
+        },
+        {
+          "client_id": "233865068474-fv51di8q1fpp8je66n07s2en0lbho7jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe8IOhrpuzflLUvpVfF9d1vNEA7zmo8Kk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233865068474-fv51di8q1fpp8je66n07s2en0lbho7jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

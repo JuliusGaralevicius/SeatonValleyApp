@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:id="@+id/grp0" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_report"
+            android:title="Report a Problem" />
+        <item
+            android:id="@+id/nav_bincollection"
+            android:title="Bin Collection" />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_twitter"
+            android:title="Twitter Feed" />
+        </group>
+        <group android:id="@+id/grp1" android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_about"
+                android:title="About" />
+        </group>
+</menu>
